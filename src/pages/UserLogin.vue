@@ -1,7 +1,7 @@
 <template>
   <q-layout>
     <q-page-container>
-      <q-page class="flex bg-image flex-center">
+      <q-page class="flex bg-image flex-center bg-red-4 ">
         <q-card
           style="border-radius: 10%"
           v-bind:style="$q.screen.lt.sm ? { width: '80%' } : { width: '30%' }"
@@ -59,6 +59,7 @@
                   color="teal-8"
                   label="Daftar"
                   style="width: 16%; font-weight: bold"
+                  to="/register"
                 ></q-btn>
               </div>
             </q-form>
